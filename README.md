@@ -1,6 +1,9 @@
 # SentiFMRecSys
 
-Dataset and pretrained models have been uploaded separately due to size constraints: \*Link here\*
+This repository includes the code and data associated to our UMAP '24 paper [Integrating sentiment features in factorization machines: Experiments on music recommender systems](https://um.org/umap2024/). Dataset and pretrained models have been uploaded separately due to size constraints: [dataset](https://dauam-my.sharepoint.com/:u:/g/personal/alejandro_bellogin_uam_es/EeDV79vo8EhCta3kLpnMj8UBMILia5wvzKY782Mm-S999w?e=GwoAoi) and [pretrained models](https://dauam-my.sharepoint.com/:u:/g/personal/alejandro_bellogin_uam_es/EVVKfINo1JJPiTi_OiIZYhUBD9IdVQBtCv0ZCHxrrX8WRA?e=iEVicS) (if any of these links do not work, contact `alejandro.bellogin@uam.es`, since they may have expired).
+
+
+## Steps
 
 1. __Set up a Conda environment with all the necessary libraries__:
     - Create environment: `conda env create -f environment.yml`
@@ -22,3 +25,17 @@ Dataset and pretrained models have been uploaded separately due to size constrai
       - **a (arousal)**
       - **d (dominance)**
       - **stsc (sentiment ratio)**
+
+## Citation
+
+If you use our source code, dataset, or experiments for your research or development, please cite the following paper:
+
+```
+@inproceedings{wang2024umap,
+  title={Integrating sentiment features in factorization machines: Experiments on music recommender systems},
+  author={Javier Wang and Alejandro Bellogín and Iván Cantador},
+  booktitle={{UMAP} '24: 32nd {ACM} Conference on User Modeling, Adaptation and Personalization, Cagliari, Italy, July 1 - 4, 2024},
+  year={2024}
+}
+```
+
