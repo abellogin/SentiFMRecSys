@@ -5,12 +5,16 @@ channels:
   - nvidia
   - defaults
 dependencies:
+  - numpy-base=1.25.2
+  - numpy=1.25.2
+  - pandas=1.5.3
+  - pip
   - python=3.10.14
-  - recbole
-  - torchaudio
   - pytorch
   - pytorch-cuda=11.8
+  - recbole
+  - torchaudio
   - torchvision
-  - numpy=1.25.2
-  - numpy-base=1.25.2
-  - pandas=1.5.3
+
+  - pip:
+    - thop
