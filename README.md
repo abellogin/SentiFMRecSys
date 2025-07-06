@@ -1,6 +1,6 @@
 # SentiFMRecSys
 
-This repository includes the code and data associated to our UMAP '24 paper [Integrating sentiment features in factorization machines: Experiments on music recommender systems](https://um.org/umap2024/). Dataset and pretrained models have been uploaded separately due to size constraints: [dataset](https://dauam-my.sharepoint.com/:u:/g/personal/alejandro_bellogin_uam_es/EeDV79vo8EhCta3kLpnMj8UBcopcgiSdYqoNgYTPFoKenw?e=KjKKzY) and [pretrained models](https://dauam-my.sharepoint.com/:u:/g/personal/alejandro_bellogin_uam_es/EVVKfINo1JJPiTi_OiIZYhUBU946nlwuGcX2POaafREXLQ?e=fZSx0T) (if any of these links do not work, contact `alejandro.bellogin@uam.es`, since they may have expired).
+This repository includes the code and data associated to our UMAP '24 paper [Integrating sentiment features in factorization machines: Experiments on music recommender systems](https://um.org/umap2024/). Dataset and pretrained models have been uploaded separately due to size constraints: [dataset](https://zenodo.org/records/15823192) and [pretrained models](https://zenodo.org/records/15823754).
 
 
 ## Steps
